@@ -1,23 +1,20 @@
-// Imports
 import './App.css';
 import Button from 'react-bootstrap/Button';
 
 // components
-import BasicNav from './assets/components/nav';
+import BasicExample from './assets/components/card-port';
 
 // images
-import cart from './assets/images/cartagena-day-01.png';
-import msg from './assets/images/group-8.png'
-import bottoms from './assets/images/Frame-24.png'
+import port from './assets/images/porty-01 1.png';
+import msg from './assets/images/Group-9.png'
+import bottoms from './assets/images/Frame-24.png';
 import { Container } from 'react-bootstrap';
 
-function App() {
+function Articles() {
   return (
-    <div className="App">
-      <header className="App-header">
-                <BasicNav />
-
-        <img src={cart} className="App-top" alt="background-cartagena" />
+    <div id="Articles" className="Articles">
+      <header className="Articles-header">
+        <img src={port} className="App-top" alt="background-cartagena" />
          <img src={msg} className="home-msg" alt="background-cartagena" />
         <Button className="button-msg" variant="success">See Portfolio</Button>
 
@@ -35,8 +32,8 @@ function App() {
         </a> */}
       </header>
       <img src={bottoms}  alt="background-cartagena" />
-    </div>
+      </div>
   );
 }
 
-export default App;
+export default Articles;
