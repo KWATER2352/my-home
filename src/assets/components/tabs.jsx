@@ -15,7 +15,7 @@ function TabsExample({ overviewContent, technicalContent, requirementsContent })
           <Nav.Link eventKey="technical">Design</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="requirements">Requirements</Nav.Link>
+          <Nav.Link eventKey="requirements">Testing</Nav.Link>
         </Nav.Item>
       </Nav>
       <Tab.Content className="project-tab-content">
