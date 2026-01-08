@@ -16,8 +16,8 @@ function BasicNav() {
           <Nav className="ms-auto navlink">
             <Nav.Link as={Link} to="/" className="linker">Home</Nav.Link>
             <Nav.Link as={Link} to="/articles" className="linker">Articles</Nav.Link>
-            <Nav.Link className="linker" href="#About">About</Nav.Link>
-            <Nav.Link className="linker" href="#Hire Me">Hire Me</Nav.Link>
+            <Nav.Link as={Link} to="/about" className="linker">About</Nav.Link>
+            <Nav.Link as={Link} to="/hireme" className="linker">Hire Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

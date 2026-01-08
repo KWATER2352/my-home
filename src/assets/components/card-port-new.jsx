@@ -25,9 +25,9 @@ const portfolioData = [
     },
     {
         "id": 3,
-        "title": "Portfolio Project - Full Stack Application",
-        "text": "Another portfolio project with unique content.",
-        "buttonText": "View Project",
+        "title": "San Diego Tide Tracker - Tide Tracking Application",
+        "text": "Coming Soon - A Tide Tracking Application for San Diego Beaches",
+        "buttonText": "Coming soon",
         "imageSrc": des
     }
 ];

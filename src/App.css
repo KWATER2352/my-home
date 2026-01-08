@@ -154,7 +154,7 @@
   margin-bottom: 2.5rem;
   width: 150px;
   display: block;
-  margin-left: auto;
+  margin-left: -0.2rem;
   margin-right: auto;
   opacity: 0.8;
 }
@@ -314,18 +314,45 @@
     margin: 1rem;
   }
 
+  .App-header,
+  .Articles-header {
+    margin-bottom: 2rem;
+  }
+
   .home-msg {
-    max-width: 200px;
-    height: 200px;
+    max-width: 85%;
+    width: 85%;
     left: 50%;
-    top: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem !important;
   }
 
   .button-msg {
-    max-width: 200px;
+    max-width: 120px;
     left: 50%;
-    top: 83%;
-    font-size: 0.85rem;
+    top: 75%;
+    transform: translateX(-50%);
+    font-size: 0.85rem !important;
+    padding: 8px 16px !important;
+  }
+
+  .blue-button {
+    max-width: 120px;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+    font-size: 0.85rem !important;
+    padding: 8px 16px !important;
+  }
+
+  .portfolio-container {
+    padding: 2rem 1rem;
+  }
+
+  .portfolio-title {
+    font-size: 2.2rem;
+    margin: 1rem 0;
   }
 }
 
@@ -400,7 +427,6 @@
   }
   
   .App-bottom {
-    /* keep bottom image proportional on large screens */
     max-width: 800px;
     max-height: 500px;
   }

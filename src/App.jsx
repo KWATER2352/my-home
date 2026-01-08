@@ -10,8 +10,11 @@ import BasicNav from './assets/components/nav';
 import GreenBoxMessage from './assets/components/homePort';
 import BasicExample from './assets/components/card-port';
 import Articles from './Articles';
+import About from './About';
+import HireMe from './HireMe';
 import TrafficGo from './assets/TrafficGo';
 import CA_Housing from './assets/CA_housing';
+import Article1 from './assets/components/article1';
 import SkillsBanner from './assets/components/skills';
 import PageTransition from './assets/components/PageTransition';
 
@@ -53,8 +56,7 @@ function Home() {
       <SkillsBanner />
       <Container className='portfolio-container'>
         <div className='portfolio-title'>
-          <h1 className="portfolio-title">Portfolio</h1>
-          <img className='underlineimg' src={underline} alt="portfolio title underline" />
+          <h1 className="portfolio-title" style={{margin: '2rem'}}>Portfolio</h1>
         </div>
 
           <BasicExample />
@@ -74,8 +76,11 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/articles" element={<PageTransition><Articles /></PageTransition>} />
+          <Route path="/about" element={<PageTransition><About /></PageTransition>} />
+          <Route path="/hireme" element={<PageTransition><HireMe /></PageTransition>} />
           <Route path="/trafficgo" element={<PageTransition><TrafficGo /></PageTransition>} />
           <Route path="/CA_housing" element={<PageTransition><CA_Housing /></PageTransition>} />
+          <Route path="/article1" element={<PageTransition><Article1 /></PageTransition>} />
         </Routes>
       </AnimatePresence>
     </>

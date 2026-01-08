@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 // components
 import BasicExample from './assets/components/card-port';
+import ArticleCards from './assets/components/card-article';
 import ArticlesBanner from './assets/components/articleskills';
 // images
 import port from './assets/images/porty-01 1.png';
@@ -18,7 +19,7 @@ function Articles() {
       <header className="Articles-header">
         <img src={port} className="App-top" alt="background-cartagena" />
          <BlueBoxMessage />
-        <Button className="blue-button" variant="success">See Articles</Button>
+        <Button className="blue-button" variant="success">See<br />Articles</Button>
 
         {/* <img src={cart} className="App-background" alt="background-cartagena" />
         <p>
@@ -36,9 +37,9 @@ function Articles() {
       <ArticlesBanner />
       <Container className='portfolio-container'>
         <div className='portfolio-title'>
-          <h1 className="portfolio-title">Articles</h1>
-          <img className='underlineimg' src={underline} alt="articles title underline" />
+          <h1 className="portfolio-title" style={{margin: '2rem'}}>Articles</h1>
         </div> 
+        <ArticleCards />
       </Container>
       </div>
   );

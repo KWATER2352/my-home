@@ -6,7 +6,7 @@ const BlueBoxMessage = () => {
     <div className='home-msg' style={styles.box}>
       <h1 style={styles.heading}>Articles</h1>
       <img className='underlineimg' src={underline} alt="title underline" style={styles.underline} />
-      <p style={styles.text}>Sharing my journeys</p>
+      <p style={styles.text}>Sharing my technical writings and personal journeys</p>
     </div>
   );
 };
@@ -26,19 +26,19 @@ const styles = {
   heading: {
     color: '#2c2c2c',
     margin: '0 0 0.5rem 0',
-    fontSize: '2rem',
+    fontSize: 'clamp(1.5rem, 5vw, 2rem)',
     fontWeight: '600',
     fontFamily: 'Spectral, serif',
     letterSpacing: '0.5px',
   },
   underline: {
-    width: '120px',
+    width: 'clamp(80px, 25%, 120px)',
     marginTop: '-0.3rem',
     marginBottom: '0.8rem',
   },
   text: {
     margin: '0',
-    fontSize: '0.95rem',
+    fontSize: 'clamp(0.85rem, 2.5vw, 0.95rem)',
     fontWeight: '400',
     fontFamily: 'Georgia, serif',
     color: '#555',
