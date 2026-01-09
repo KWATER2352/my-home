@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-home/static/css/main.b7c8c32c.css",
-    "main.js": "/my-home/static/js/main.b3fe32f5.js",
+    "main.css": "/my-home/static/css/main.913819c8.css",
+    "main.js": "/my-home/static/js/main.0e7cd23e.js",
     "static/js/453.5a373776.chunk.js": "/my-home/static/js/453.5a373776.chunk.js",
     "static/media/pred.gif": "/my-home/static/media/pred.b135c44587ee49deb9d8.gif",
     "static/media/main-page.gif": "/my-home/static/media/main-page.c338281cf2f55aeceaa2.gif",
@@ -12,7 +12,7 @@
     "static/media/dos.mp4": "/my-home/static/media/dos.a6b8bbfc056eb815d7d6.mp4",
     "static/media/cartagena-day-01.png": "/my-home/static/media/cartagena-day-01.814be5143d1e721831a9.png",
     "static/media/resume.pdf": "/my-home/static/media/resume.4b9f362f7cc58ad81f00.pdf",
-    "static/media/porty-01 1.png": "/my-home/static/media/porty-01 1.2f829fe330e1d03c8abd.png",
+    "static/media/porty-01 1.png": "/my-home/static/media/porty-01 1.bef27c82f8f5803a8262.png",
     "static/media/me.png": "/my-home/static/media/me.7d1dd382441a2eaca991.png",
     "static/media/aior.png": "/my-home/static/media/aior.1a0965f78e5fbb892460.png",
     "static/media/quatro.mp4": "/my-home/static/media/quatro.3c4f66f9cf0c487bc393.mp4",
@@ -65,12 +65,12 @@
     "static/media/Frame-24.png": "/my-home/static/media/Frame-24.8ee0c858c7b84a37dafe.png",
     "static/media/Group-9.png": "/my-home/static/media/Group-9.3a4cdd90f9e0cc7e4add.png",
     "index.html": "/my-home/index.html",
-    "main.b7c8c32c.css.map": "/my-home/static/css/main.b7c8c32c.css.map",
-    "main.b3fe32f5.js.map": "/my-home/static/js/main.b3fe32f5.js.map",
+    "main.913819c8.css.map": "/my-home/static/css/main.913819c8.css.map",
+    "main.0e7cd23e.js.map": "/my-home/static/js/main.0e7cd23e.js.map",
     "453.5a373776.chunk.js.map": "/my-home/static/js/453.5a373776.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7c8c32c.css",
-    "static/js/main.b3fe32f5.js"
+    "static/css/main.913819c8.css",
+    "static/js/main.0e7cd23e.js"
   ]
 }
