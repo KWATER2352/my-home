@@ -13,15 +13,16 @@ const GreenBoxMessage = () => {
 
 const styles = {
   box: {
-    backgroundColor: 'rgba(254, 255, 240, 0.95)', // light cream background
+    backgroundColor: 'rgba(254, 255, 240, 0.95)',
     color: '#2c2c2c',
-    padding: '2rem 2.5rem',
+    padding: 'clamp(1rem, 3vw, 2rem) clamp(1.2rem, 4vw, 2.5rem)',
     border: '1px solid #e0c304ff',
     borderLeft: '4px solid #e0c304ff',
     textAlign: 'left',
     boxShadow: '0 2px 12px rgba(0, 0, 0, 0.1)',
     pointerEvents: 'auto',
     backdropFilter: 'blur(10px)',
+    maxWidth: '100%',
   },
   heading: {
     color: '#2c2c2c',
